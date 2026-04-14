@@ -22,7 +22,6 @@
 	const scanType = ref('')
 	const scanResult = ref('')
 
-	// 调用相机 
 	const openCamera = () => {
 		scanType.value = ''
 		scanResult.value = ''
